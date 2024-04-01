@@ -8,8 +8,7 @@ nota2 = float(input('Digite a 2ª nota: '))
 media = (nota1 + nota2) / 2
 
 
-if media:
-    if media => 6:
+if media >=6:    
     print('Sua média é ', media)
     print('Você está aprvado!')
 else:
