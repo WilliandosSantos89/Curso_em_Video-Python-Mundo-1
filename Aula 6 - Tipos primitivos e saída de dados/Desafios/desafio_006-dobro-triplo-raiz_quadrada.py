@@ -10,4 +10,4 @@ raiz_quadrada = n ** (1/2)
 
 print('O dobro de {} é {}'.format(n, dobro))
 print('O triplo de {} é {}'.format(n, triplo))
-print('A raiz quadrada de {} é {}'.format(n, raiz_quadrada))
+print('A raiz quadrada de {} é {:.2f}'.format(n, raiz_quadrada))
