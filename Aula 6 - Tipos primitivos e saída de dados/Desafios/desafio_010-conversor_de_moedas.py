@@ -8,5 +8,5 @@ dolar = (real * 5.0153)
 euro = (real * 5.043)
 
 
-print('Cotação em Dolar: $', dolar)
-print('Cotação em Euro: EUR', euro)
+print('Cotação em Dolar: $ {:.2f}'.format(dolar))
+print('Cotação em Euro: EUR {:.2f}'.format(euro))
