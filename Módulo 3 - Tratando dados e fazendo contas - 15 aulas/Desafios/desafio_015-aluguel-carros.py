@@ -2,9 +2,10 @@ print('=' *20, end=' ')
 print('Desafio 015 - Aluguel de Carros', end=' ')
 print('=' *20)
 
-# Programa que pergunte a quantidade de Km percorridos por um carro alugado 
-#e a quantidade de dias pelos quais ele foi alugado. 
-#Calcule o preço a pagar, sabendo que o carro custa R$60 por dia e R$0,15 por Km rodado.
+"""Programa que pergunte a quantidade de Km percorridos por um carro alugado 
+e a quantidade de dias pelos quais ele foi alugado. 
+Calcule o preço a pagar, sabendo que o carro custa R$60 por dia e R$0,15 
+por Km rodado."""
 
 # Solicitações ao usuário
 dias_alugado = float(input('Quantos dias você usou o carro? '))
