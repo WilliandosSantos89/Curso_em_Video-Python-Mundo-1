@@ -35,6 +35,8 @@ print(frase.lstrip()) #remove espaços da extremidade esquerda (l)
 
 #Divisão
 print(frase.split()) #gera uma lista com cada palavra da cadeia (espaço)
+#dividido = frase.split()
+#print(dividido[0][3]) #nesse caso, [0] representa 'Curso' e [3] 'Python'
 
 #Junção
-print('-'.join(frase))
+#print('-'.join(frase))
