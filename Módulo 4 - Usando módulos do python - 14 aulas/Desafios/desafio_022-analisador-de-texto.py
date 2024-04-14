@@ -8,11 +8,27 @@ print('=' *20)
   - Quantas letras tem o primeiro nome
 """
 
-nome = input('Insira o nome completo: ')
+nome = input('Insira o nome completo: ').strip()
 
 print('Letras maiúsculas: ', nome.upper())
 print('Letras minúsculas: ', nome.lower())
-novo_nome = nome.strip() 
-print('Quantidade de letras (espaços não considerados): ',len(novo_nome))
-dividido = novo_nome
-print('Quantidade de letras do 1º nome: ',dividido[0])
+
+#Calcula a quantidade de letras sem considerar espaços
+qdt_letras = len(nome) - nome.count(' ')
+print('Quantidade de letras (sem considerar espaços): ', qdt_letras)
+
+#Encontra o primeiro nome e calcula o número de letras nele
+primeiro_nome = nome.split()[0]
+print('Quantidade de letras no primeiro nome: ',len(primeiro_nome))
+
+""""
+Explicando o código:
+
+*Utilizei o método .strip() diretamente após a entrada do usuário para 
+remover espaços extras.
+*Para calcular a quantidade de letras sem considerar espaços, subtraí 
+a quantidade de espaços do comprimento total da string.
+*Para encontrar a quantidade de letras do primeiro nome, dividi 
+a string pelo espaço e peguei a primeira parte, que é o primeiro nome.
+
+"""
